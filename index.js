@@ -129,7 +129,7 @@ function displayResult(data)
             dtlBtn.addEventListener('click',function(){  
                 localStorage.setItem('charId', element.id);
                 console.log(element.id); 
-                window.location.assign('/detail.html');
+                window.location.href=('/detail.html');
             });
 
             //On click event on Favourite button
