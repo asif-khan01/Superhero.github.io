@@ -129,12 +129,7 @@ function displayResult(data)
             dtlBtn.addEventListener('click',function(){  
                 localStorage.setItem('charId', element.id);
 
-              /*  var link=document.createElement("a");
-                link.id = 'someLink'; 
-                link.href="/superhero.github.io/detail.html";
-                document.body.appendChild(link)
-                document.getElementById('someLink').click();
-                console.log(element.id); */
+              
                 window.location.href=('/superhero.github.io/detail.html');
             });
 

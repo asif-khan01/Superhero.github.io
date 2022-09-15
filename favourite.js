@@ -12,7 +12,7 @@ home.addEventListener('click',function(){
 var pageTitle = document.getElementsByClassName("logo-style")[0];
 pageTitle.addEventListener('click',function(){
 
-    window.location.assign('/index.html');
+    window.location.href=('/superhero.github.io/index.html');
 
 });
 
