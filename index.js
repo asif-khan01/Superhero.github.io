@@ -128,8 +128,14 @@ function displayResult(data)
             //On click event on detail button
             dtlBtn.addEventListener('click',function(){  
                 localStorage.setItem('charId', element.id);
+
+                var link=document.createElement("a");
+                link.id = 'someLink'; 
+                link.href="/detail.html";
+                document.body.appendChild(link)
+                document.getElementById('someLink').click();
                 console.log(element.id); 
-                window.location.href=('/detail.html');
+               // window.location.href=('/detail.html');
             });
 
             //On click event on Favourite button
