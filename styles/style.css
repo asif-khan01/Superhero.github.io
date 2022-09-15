@@ -308,7 +308,7 @@
     justify-content: center;
     top:16vh;
     position: relative;
-    background-image: url('/Images/detail-bg.jpg');
+    background-image: url("https://asif-khan01.github.io/superhero.github.io/Images/detail-bg.jpg");
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
