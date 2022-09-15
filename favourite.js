@@ -81,7 +81,7 @@ function addToFavourite(data)
     dtlBtn.addEventListener('click',function(){  
         localStorage.setItem('charId', element.id);
          
-        window.location.assign('/detail.html');
+        window.location.href=('/superhero.github.io/detail.html');
     });
 
     var search = element.id;
