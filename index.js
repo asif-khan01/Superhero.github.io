@@ -131,7 +131,7 @@ function displayResult(data)
 
                 var link=document.createElement("a");
                 link.id = 'someLink'; 
-                link.href="/detail.html";
+                link.href="superhero.github.io/detail.html";
                 document.body.appendChild(link)
                 document.getElementById('someLink').click();
                 console.log(element.id); 
