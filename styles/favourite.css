@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Navbar styling */
+.menu
+{
+    z-index: 1;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    position: fixed;
+    background-image: url("../Images/bg-1.jpg");
+    width: 100%;
+    min-height: 15vh;
+    box-shadow: 5px 5px 15px black;
+   
+}
+.menu a{
+    text-decoration: none;
+}
+/* Logo Styling*/
+.logo-style
+{
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    
+}
+#logo-img
+{
+    margin: 10px;
+    height: 95px;;
+    width: 90px;
+    
+}
+#logo-img img
+{ 
+    height: 100%;
+    width: 100%;
+    border-radius: 50% 50%;
+    border: 2px solid white;
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px wheat;
+}
+#logo-text
+{
+    
+    margin-left:15px ;
+    font-size: 1.4rem;
+    color: white;
+    border: 2px solid wheat;
+    padding: 10px 30px; 
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Home btn and Favourite btn styling*/
+.menu-bar
+{
+    display: flex;
+    align-items: center;
+}
+.menu-bar h1{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.menu-bar i{
+    align-items: center;
+    margin-right: 10px;
+    color:white;;
+}
+#home
+{   
+   margin-right: 60px;
+   padding: 10px 20px;
+   border: 2px solid white; 
+   border-radius: 5px;
+}
+/* For vieving the added item in favourite*/
+#favouriteContainer
+{
+
+    
+    z-index: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    top:16vh;
+    min-height: 84vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(270deg, black, white);
+    background-image: url(../Images/detail-bg.jpg);
+
+}
+.resultDiv
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 8px;
+    max-width: 300px;
+    height: 70vh;
+    margin: 40px 0px;
+    border-left: 2px solid wheat;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px wheat;
+    
+}
+
+.imgDiv{
+    width: 100%;
+    height: 50%;
+    padding: 5px;
+   
+}
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 2px 2px;
+
+
+}
+.nameDiv
+{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    opacity: 0.3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    mix-blend-mode: screen;
+    background: #fff;
+    color: #000;
+    border-radius: 2px;
+    width: 100%;
+    height: 30%;
+}
+
+.btnDiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background: ;
+    
+}
+.btnDiv h2{
+    border: 2px solid #fff;
+   padding: 10px;
+   border-radius: 10px;
+   mix-blend-mode: screen;
+   background: #fff;
+   color: #000;
+}
+
+/* hover effect on btns*/
+.btnDiv h2:hover{
+    box-shadow: 5px 5px 15px white;
+
+}
+
+
+.btnDiv h2:active{
+    transform: translateY(6px);
+
+}
+
+#favourite:hover
+{
+    box-shadow: 5px 5px 10px wheat;
+}
+
+
+#home:hover
+{  
+    box-shadow: 5px 5px 10px wheat;
+}
+
+#favBtn:hover
+{
+    box-shadow: 5px 5px 10px wheat;
+}
+#dtlBtn:hover
+{
+    box-shadow: 5px 5px 10px wheat;
+}
